@@ -104,6 +104,6 @@ body {
 }
 
 #logo {
-  background: url(/flag.svg) 0% 0% / auto 100% no-repeat;
+  background: url("flag.svg") 0% 0% / auto 100% no-repeat;
   padding: 25px;
 }
