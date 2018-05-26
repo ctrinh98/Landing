@@ -98,6 +98,11 @@ body {
   margin: -8px;
 }
 
+.landing a {
+  text-align: center;
+  margin: 0px 30em;
+}
+
 .content {
 /*  font-family: 'Karla', sans-serif;*/
   font-size: 18px;
@@ -106,4 +111,142 @@ body {
 #logo {
   background: url("flag.svg") 0% 0% / auto 100% no-repeat;
   padding: 25px;
+}
+
+.content p {
+  font-size: 24px;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 48rem;
+}
+
+.content {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+  width: 100%;
+  max-width: 64rem;
+}
+
+.details p {
+  color: white;
+}
+
+.date {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.dicon {
+  width: 72px;
+  height: 72px;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  text-align: center;
+  font-weight: 700;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 12px;
+  border-width: 6px;
+}
+
+.month {
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 90, 95);
+  line-height: 1;
+  margin: 0px;
+}
+
+.day {
+  font-size: 32px;
+  color: white;
+  line-height: 1.75;
+  margin: 0px;
+}
+
+.details p {
+  font-size: 18px;
+  text-align: left;
+  margin: 16px 0px;
+}
+
+.content h2 {
+  line-height: 1.25;
+/*  font-size: 24px;*/
+}
+
+.grid {
+  margin-bottom: 32px;
+  margin-top: 32px;
+  color: rgb(255, 255, 255);
+  display: grid;
+/*  grid-template-columns: 27ch 27ch;*/
+/*  grid-row-gap: 50px;*/
+  grid-template-columns: .4fr .4fr;
+  padding: 10px;
+  width: 100%;
+  grid-gap: 48px 48px;
+}
+
+.grid > div {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 2px 0px, rgba(0, 0, 0, 0.16) 0px 12px 12px 0px;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.grid h3 {
+  font-size: 30px;
+  margin: 18px 0px;
+}
+
+.grid p {
+  font-size: 20px;
+}
+
+.box1 {
+  background-color: rgb(255, 90, 95);
+  padding: 16px;
+}
+
+.register {
+  background-color: rgb(0, 154, 171);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  -webkit-appearance: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 12px;
+  line-height: 1;
+  will-change: transform;
+  transform: scale(1);
+  border-radius: 9999px;
+  border-width: 0px;
+  border-style: solid;
+  padding: 20px 32px 16px;
+  transition: transform 0.125s ease-out;
+}
+
+.box2 {
+  background-color: rgb(0, 189, 222);
+  padding: 16px;
 }
