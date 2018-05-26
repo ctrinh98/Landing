@@ -1,3 +1,3 @@
 # Landing
 
-ctrinh.com/Landing
+http://ctrinh.com/Landing
